@@ -16,42 +16,99 @@
 
 
     
-              
-        <nav class="navbar navbar-expand-sm bg-white navbar-dark" style="background-color:white;
-        ;">
-                <!-- Brand -->
-                <a class="navbar-brand" href="#"><img src="images/LOGO.jpg" class="float-left" alt="LOGO" width="131" height="49"> </a>
+         
                
-              <br>
-              <br>
-                  <!-- Dropdown -->
 
 
 
 
 
 
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                     popular
-                    </a>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item" href="#">popular</a>
-                      <a class="dropdown-item" href="#">original</a>
-                      <a class="dropdown-item" href="#">new</a>
-                    </div>
-                  </li>
-                </ul>
-                <form class="form-inline" action="/action_page.php">
-                    <input class="form-control mr-sm-2" type="text" placeholder="Search Reddit">
-                    <button class="btn btn-primary" type="submit">Search </button>       
-                  </form>
 
-                  
-                                
+
+
+
+
+
+                <div id="app" class="container">
+                        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <a class="navbar-brand" href="#"><img src="images/LOGO.jpg" class="float-left" alt="LOGO" width="131" height="49"> </a>
+
+                         
+                          <button
+                            class="navbar-toggler"
+                            type="button"
+                            data-toggle="collapse"
+                            data-target="#navbarNavDropdown"
+                            aria-controls="navbarNavDropdown"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation"
+                          >
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div id="navbarNavDropdown" class="navbar-collapse collapse">
+                            <ul class="navbar-nav mr-auto">
+                              
+                              <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                     popular
+                                    </a>
+                                    <div class="dropdown-menu">
+                                      <a class="dropdown-item" href="#">popular</a>
+                                      <a class="dropdown-item" href="#">original</a>
+                                      <a class="dropdown-item" href="#">new</a>
+                                    </div>
+                                  </li>
+                                </ul>
+                                <div class="d-flex justify-content-start">
+                                <form class="form-inline" action="/action_page.php" class="float-left">
+                                    <input class="form-control mr-sm-2" type="text" placeholder="Search Reddit">
+                                    <button class="btn btn-primary" type="submit">Search </button>       
+                                  </form>
+                                  </div>
+
+
+
+                            
+                            <ul class="navbar-nav">
+                              
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                  <a class="dropdown-item" href="#">Action</a>
+                                  <a class="dropdown-item" href="#">Another action</a>
+                                </div>
+                              </li>
+                              <li class="nav-item">
+                                    <button class="btn btn-default" type="submit">Login </button>
+                              </li>
+                              <li class="nav-item">
+                                    <button class="btn btn-primary" type="Sign">Sign up </button>
+                              
+                              </li>
+                              
+                          </button>
                           
-                           
-              </nav>
+                              
+                            <ul class="navbar-nav">
+                              <li class="nav-item dropdown">
+                                <a
+                                  class="nav-link dropdown-toggle"
+                                  href="http://example.com"
+                                  id="navbarDropdownMenuLink"
+                                  data-toggle="dropdown"
+                                  aria-haspopup="true"
+                                  aria-expanded="false"
+                                >
+                                <img src="images/dropdownright.jpg" class="right" alt="icon" width="" height="">
+                                  
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                  <a class="dropdown-item" href="#">Action</a>
+                                  <a class="dropdown-item" href="#">Another action</a>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                        </nav>
               <br>
                 
 <div class ="container">
@@ -87,11 +144,13 @@
                         </div>
                         <br>
                         <br>
+                        
                         <div class="col-sm-3 col-md-6 col-lg-4" style="background-color:#BCC6CC
                         ;">
                           <img src="images/reddit-ad3.jpg" alt="ad1"> </div>
                           
                       </div>
+                    </div>
             </div>
 </div>
 </body>
