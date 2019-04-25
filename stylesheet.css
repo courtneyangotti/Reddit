@@ -5,3 +5,23 @@ reddit-ad {
 .btn btn-success {
   color: default;
 }
+
+.green-nav {
+  width: 100%;
+  height: 80px;
+  background-color: green;
+  flex-flow: row;
+  color: green;
+}
+.green {
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.container-green {
+  width: 100%;
+  background-color: #eeffee;
+}
+.container-green .ul .li {
+  color: green !important;
+}
