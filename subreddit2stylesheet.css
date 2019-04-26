@@ -53,35 +53,3 @@ justify-content-right {
   margin-bottom: 7px;
   display: inline-block !important;
 }
-
-a {
-  color: rgb(136, 170, 136) !important
-;
-  text-decoration: none;
-  background-color: transparent;
-}
-
-a:visited {
-  color: rgb(136, 170, 136) !important;
-}
-
-a:active {
-  color: rgb(136, 170, 136) !important;
-}
-
-.nav li.active a {
-  color: rgb(136, 170, 136) !important;
-}
-.nav li a,
-ul.nav li a:visited {
-  color: rgb(136, 170, 136) !important;
-}
-
-ul.nav li a:hover,
-ul.nav li a:active {
-  color: rgb(136, 170, 136) !important;
-}
-
-ul.nav li.active a {
-  color: rgb(136, 170, 136) !important;
-}
