@@ -1,0 +1,36 @@
+.green-nav {
+  width: 100%;
+  height: 80px;
+  background-color: green;
+  flex-flow: row;
+  color: green;
+}
+.green {
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.container-green {
+  width: 100%;
+  background-color: #eeffee;
+}
+li {
+  color: green !important;
+}
+
+.i {
+  padding-left: 15px;
+  margin-left: 15px;
+}
+
+.justify-content-middle {
+  background-color: white;
+  width: 650px;
+  height: 364px;
+  margin-left: 236px;
+  margin-bottom: 7px;
+}
+
+.container-fluid {
+  background-color: #eeffee;
+}
