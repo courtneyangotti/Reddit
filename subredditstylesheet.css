@@ -29,8 +29,32 @@ li {
   height: 364px;
   margin-left: 236px;
   margin-bottom: 7px;
+  display: inline-block;
 }
 
 .container-fluid {
   background-color: #eeffee;
+  display: inline-block !important;
+}
+
+.box1 {
+  display: inline-block;
+  margin-right: 10px;
+  float: left;
+}
+
+.adgreen1 {
+  display: inline-block;
+  margin-right: 10px;
+  float: left;
+}
+
+.justify-content-right {
+  background-color: white;
+  width: 301px;
+  height: 317px;
+  margin-top: 0px;
+  margin-left: 936px;
+  margin-bottom: 7px;
+  display: inline-block !important;
 }
