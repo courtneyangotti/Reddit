@@ -1,7 +1,19 @@
-reddit-ad {
-  width: 311px;
-  height: 259px;
+.ad1 {
+  padding-right: 20px;
+  padding-bottom: 10px;
 }
+
 .btn btn-success {
   color: default;
+}
+
+.container-fluid {
+  flex-wrap: wrap;
+  background-color: #bcc6cc;
+}
+
+.row {
+  padding-left: 225px;
+  padding-right: 135px;
+  padding-bottom: 0px;
 }
