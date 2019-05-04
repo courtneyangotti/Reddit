@@ -17,3 +17,8 @@
   padding-right: 135px;
   padding-bottom: 0px;
 }
+#post {
+  width: 600px;
+  height: 400px;
+  background-color: white;
+}
