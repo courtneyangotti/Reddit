@@ -17,6 +17,7 @@
   />
   <link rel="stylesheet" href="practicestyle.css" />
   <link rel="javascript" href="ajax.js" />
+  <script src="my.js"></script>
 
   <link
     rel="stylesheet"
@@ -28,6 +29,9 @@
 <body> 
     
     
+ 
+       
+  </div>
     <div id="app" class="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#"><img src="images/LOGO.jpg" class="float-left" alt="LOGO" width="131" height="49"> </a>
@@ -48,8 +52,8 @@
             <ul class="navbar-nav mr-auto">
               
               <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                     popular
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown"><i class="fas fa-signal"> </i>
+                     Popular
                     </a>
                     <div class="dropdown-menu">
                       <a class="dropdown-item" href="#">popular</a>
@@ -61,6 +65,7 @@
                 <div class="d-flex justify-content-start">
                 <form class="form-inline" action="/action_page.php" class="float-left">
                     <input class="form-control mr-sm-2" type="text" placeholder="Search Reddit">
+                    
                     <button class="btn btn-primary" type="submit">Search </button>       
                   </form>
                   </div>
@@ -123,13 +128,14 @@
             </ul>
           </div>
         </nav>
-<br>
-                          </div>
-                          <div class ="container-fluid">
+                      
                               <div class ="nav3">
                                     <ul class="nav">
                                         <li class="nav-item"> <a class= "" href="#"></a>
-                                        <p>view</p></li>
+                                        <p>view</p>
+                                      
+                                      </li>
+                                      <br>
                                             <li class="nav-item">
                                                   <a class='nav-link'  href="#"></a><i class="fas fa-equals"></i></a>
                                               </li>
@@ -138,20 +144,51 @@
                                                     <a class='nav-link'  href="#"></a><i class="fas fa-bars"></i></a>
                                               </li>
                                               <li class="nav-item">
-                                                    <a class='nav-link'  href="#"></a><i class="fas fa-align-justify"></i></a>
+                                                    <a class='nav-link'  href="#"></a> <i class="fas fa-align-justify"></i>
+                                
+
+                                                  </a>
                                               </li>
+                                              <li class="nav-item-hot">
+
+                                                  <a class='nav-link'  href="#"></a> </i>
+                                               <div class="SORT">sort </div>
+
+                                               
+                                            <li>
+                                           <i class="fas fa-fire-alt">HOT</i>
+                                           <div id="navbarNavDropdown" class="navbar-collapse collapse">
+                                              <ul class="navbar-nav mr-auto">
+                                                
+                                                <li class="nav-item dropdown">
+                                                      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown"><i class="fas fa-signal"> </i>
+                                                       Popular
+                                                      </a>
+                                                      <div class="dropdown-menu">
+                                                        <a class="dropdown-item" href="#">popular</a>
+                                                        <a class="dropdown-item" href="#">original</a>
+                                                        <a class="dropdown-item" href="#">new</a>
+                                                      </div>
+                                                    </li>
+                                                  </ul>
+
+                                                </a>
+                                            </li>
                               </div>
+                          </div>
                     
 
 
 
                              <div class="container-fluid">
+
                                 <div class="row">
                                 <div class="col-12 col-md-8">
                                     <div class="post-list">
 
+                                    
 
-
+                                   
 
 
                                     <div class="post">
@@ -205,11 +242,6 @@
 
                                         </div>
                                     </div>
-                                    
-
-                                   
-
-
 
 
 

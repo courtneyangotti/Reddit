@@ -83,3 +83,16 @@ button {
 .p {
   padding-top: 30px;
 }
+li {
+  color: #007bff !important;
+}
+.nav3 {
+  padding-left: 120px;
+  background-color: white !important;
+}
+.SORT {
+  color: grey !important;
+}
+.fas fa-fire-alt {
+  vertical-align: baseline;
+}
